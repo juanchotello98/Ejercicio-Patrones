@@ -63,7 +63,6 @@ class filtered_text {
 				if(word.charAt(0)=='t'){
 					pwriter.println(word);
 				}
-				
 			}
 			bwriter.close();
 			pwriter.close();
@@ -93,8 +92,7 @@ class filtered_text {
 				String word = in.next();
 				if(word.length()==5){
 					pwriter.println(word);
-				}
-				
+				}	
 			}
 			bwriter.close();
 			pwriter.close();
@@ -127,7 +125,6 @@ class filtered_text {
 				if(word_reverse.equals(word)){
 					pwriter.println(word);
 				}
-				
 			}
 			bwriter.close();
 			pwriter.close();
