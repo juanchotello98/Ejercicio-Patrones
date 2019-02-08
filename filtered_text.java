@@ -13,7 +13,6 @@ class filtered_text {
 
 
 	public static void main (String args[]){
-		//System.out.println("Hello World");
 		file_not_filtered("./ejercicio_patrones/test_file.txt");
 		file_words_just_t("./ejercicio_patrones/test_file.txt");
 		file_words_five_characters("./ejercicio_patrones/test_file.txt");
